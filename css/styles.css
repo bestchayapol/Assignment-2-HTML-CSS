@@ -1,0 +1,18 @@
+.box1 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+.box2 {
+    background-color: rgb(179, 255, 0);
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    top: 20px;
+    position: relative
+}
+.box3 {
+    background-color: rgb(255, 162, 0);
+    width: 200px;
+    height: 200px;
+}
