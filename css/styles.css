@@ -1,66 +1,76 @@
+body {
+    background-color: antiquewhite;
+}
+
 /* DIV 1 */
 
 .japan-div {
     background-color: rgb(244, 154, 148);
+    border-radius: 50px;
+    border: 10px solid red;
     padding: 40px;
     margin: 40px;
 }
 .box1-relative {
     width: 300px;
-    border: 1px solid black;
+    border: 5px solid black;
 }
 .box2-relative {
     width: 300px;
-    border: 1px solid black;
+    border: 5px solid black;
     top: 20px;
     left: 20px;
     position: relative;
 }
 .box3-relative {
     width: 300px;
-    border: 1px solid black;
+    border: 5px solid black;
 }
 
 /* DIV 2 */
 .usa-div {
     background-color: rgb(167, 179, 246);
+    border-radius: 50px;
+    border: 10px solid purple;
     padding: 40px;
     margin: 40px;
 }
 .box1-absolute {
     width: 300px;
-    border: 1px solid rgb(253, 0, 0);
+    border: 5px solid rgb(253, 0, 0);
 }
 .box2-absolute {
     width: 300px;
-    border: 1px solid rgb(253, 0, 0);
+    border: 5px solid rgb(253, 0, 0);
     top: 20px;
     left: 20px;
     position: absolute;
 }
 .box3-absolute {
     width: 300px;
-    border: 1px solid rgb(253, 0, 0);
+    border: 5px solid rgb(253, 0, 0);
 }
 
 /* DIV 3 */
 .england-div {
     background-color: rgb(189, 246, 167);
+    border-radius: 50px;
+    border: 10px solid green;
     padding: 40px;
     margin: 40px;
 }
 .box1-fixed {
     width: 300px;
-    border: 1px solid rgb(76, 0, 253);
-    float: right;
+    border: 5px solid rgb(76, 0, 253);
 }
 .box2-fixed {
     width: 300px;
-    border: 1px solid rgb(76, 0, 253);
-    top: 100%;
+    border: 5px solid rgb(76, 0, 253);
+    bottom: 0;
+    right: 0;
     position: fixed;
 }
 .box3-fixed {
     width: 300px;
-    border: 1px solid rgb(76, 0, 253);
+    border: 5px solid rgb(76, 0, 253);
 }
